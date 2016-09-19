@@ -1,5 +1,6 @@
-# new-app
-# 门户型app，简单易用，基于LBS采集/聚合用户的兴趣点，
-  期待打造一款基于LBS的实时兴趣点SE
-# client:ios、Android
-# server:erlang
++ 环境部署
+1. 安装erlang
+2. 安装elixir
+  wget https://github.com/elixir-lang/elixir/archive/v1.3.3.tar.gz
+  
+
