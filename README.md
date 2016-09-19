@@ -2,7 +2,8 @@
 1. 安装erlang
   
 ```
-wget https://github.com/erlang/otp/archive/OTP-19.0.7.tar.gz;
+yum -y install ncurses-devel;
+wget http://www.erlang.org/download/otp_src_19.0.tar.gz;
 ./configure --prefix=/usr/local/erlang --with-ssl --enable-threads --enable-smp-support --enable-kernel-poll --enable-hipe --without-javac; 
 make && make install;
 echo ERL_HOME=/usr/local/erlang >> /etc/profile;
