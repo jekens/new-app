@@ -4,11 +4,8 @@
   ```
   yum -y install ncurses-devel;
   yum -y install openssl-devel;
-  %% https://www.erlang-solutions.com/resources/download.html
-  wget https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0.7-1~centos~7_amd64.rpm;
-  rpm -qpi esl-erlang_19.0.7-1~centos~7_amd64.rpm;
-  rpm -ivh esl-erlang_19.0.7-1~centos~7_amd64.rpm;
-  ./configure --prefix=/usr/local/erlang --with-ssl --enable-threads --enable-smp-support --enable-kernel-poll --enable-hipe --without-javac; 
+  wget http://www.erlang.org/download/otp_src_19.0.tar.gz;
+  ./configure --prefix=/usr/local/erlang --without-javac; 
   make && make install;
   echo ERL_HOME=/usr/local/erlang >> /etc/profile;
   echo PATH='$ERL_HOME/bin:$PATH' >> /etc/profile;
@@ -20,6 +17,7 @@
 
   ```
   wget https://github.com/elixir-lang/elixir/archive/v1.3.3.tar.gz;
+  make && make install;
   ```       
   
 
