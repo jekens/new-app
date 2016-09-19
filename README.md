@@ -3,7 +3,7 @@
   
   ```
   yum -y install ncurses-devel;
-  %% erlang安装包https://www.erlang-solutions.com/resources/download.html
+  %% https://www.erlang-solutions.com/resources/download.html
   wget https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0.7-1~centos~7_amd64.rpm;
   rpm -qpi esl-erlang_19.0.7-1~centos~7_amd64.rpm;
   rpm -ivh esl-erlang_19.0.7-1~centos~7_amd64.rpm;
