@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :gserver, key: :value
+#     config :ex_ranch_server_tasks, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:gserver, :key)
+#     Application.get_env(:ex_ranch_server_tasks, :key)
 #
 # Or configure a 3rd-party app:
 #
