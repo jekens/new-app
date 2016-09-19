@@ -3,7 +3,8 @@
   
   ```
   yum -y install ncurses-devel;
-  wget http://www.erlang.org/download/otp_src_19.0.tar.gz;
+  %% erlang安装包https://www.erlang-solutions.com/resources/download.html
+  wget https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0.7-1~centos~7_amd64.rpm;
   ./configure --prefix=/usr/local/erlang --with-ssl --enable-threads --enable-smp-support --enable-kernel-poll --enable-hipe --without-javac; 
   make && make install;
   echo ERL_HOME=/usr/local/erlang >> /etc/profile;
