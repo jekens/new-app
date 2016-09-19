@@ -3,6 +3,7 @@
   
   ```
   yum -y install ncurses-devel;
+  yum -y install openssl-devel;
   %% https://www.erlang-solutions.com/resources/download.html
   wget https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0.7-1~centos~7_amd64.rpm;
   rpm -qpi esl-erlang_19.0.7-1~centos~7_amd64.rpm;
